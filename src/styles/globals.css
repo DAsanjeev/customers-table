@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: 'Korolev', sans-serif;
+  overflow-x: hidden;
+}
+
+.font-compressed {
+  font-family: 'Korolev-Compressed', sans-serif;
+}
+
+.font-road-rage {
+  font-family: 'Road Rage', sans-serif;
+}
+
+.korolev {
+  font-family: 'Korolev', sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.iframe-video iframe {
+  border-radius: 16px;
+}
+
+.bg-gradient {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    linear-gradient(97deg, #05c5ff 3.84%, #0f0 95.47%);
+}
+
+.scroll-bar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+input.no-spinner::-webkit-outer-spin-button,
+input.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input.no-spinner[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
